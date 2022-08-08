@@ -9,6 +9,6 @@ class AdminController < BaseController
   set :views, (proc { File.join(root, 'views/admin') })
 
   get '/' do
-    'hello admin'
+    erb :index
   end  
 end

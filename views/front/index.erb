@@ -2,8 +2,18 @@
 <html>
   <head>
     <title>sinatra template</title>
+    <link href="common.css" rel="stylesheet">
   </head>
   <body>
-    Hello SINATRA!
+    <h2 class="font-rocknroll">Hello SINATRA!</h2>
+    <p class="font-rocknroll">
+      これはSinatraのテンプレートです。
+      <pre>
+        $ git clone https://github.com/tetsu960/sinatra_temp.git
+        $ bundle config set path 'vendor/bundle' 
+        $ bundle install
+        $ bundle exec rackup -p 4567 -o 0.0.0.0
+      </pre>
+    </p>
   </body>
 </html>
